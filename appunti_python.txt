@@ -1,0 +1,23 @@
+appunti ML
+
+
+import numpy as np
+X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+Y = np.array([1, 1, 1, 2, 2, 2])
+from sklearn.naive_bayes import GaussianNB
+clf = GaussianNB()
+
+#apprendimento
+clf.fit(X, Y)
+
+#predice in che quadrante uscirà con i valori dati
+clf.predict([[-10.8, -11]])
+
+#accuratezza della previsione =numero di punti classificati correttamente / punti dell'insieme totale
+
+print clf.score(features_test, labels_test)
+
+oppure
+pred = clf.predict(features_test)
+accuracy = accuracy_score(pred, labels_test)
+
