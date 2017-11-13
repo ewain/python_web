@@ -2,7 +2,9 @@ import fractions
 import datetime
 import fileinput
 print('Hello World!')
-
+'''
+nuovo commento
+'''
 ''' 
 # determina se i numeri di seq sono pari o dispari
 seq = [1, 2, 3, 4, 5]
