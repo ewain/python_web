@@ -21,3 +21,8 @@ oppure
 pred = clf.predict(features_test)
 accuracy = accuracy_score(pred, labels_test)
 
+
+import math
+-0.5*math.log(0.5, 2) -0.5*math.log(0.5, 2) 
+-(2/3)*math.log((2/3), 2) -(1/3)*math.log((1/3), 2) 
+
